@@ -1,0 +1,69 @@
+body{
+    background-image: url('images/flame.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+ 
+}
+form{
+  font-family: Arial, Helvetica, sans-serif;
+  height: 460px;
+  width: 400px;
+  background-color: rgba(255, 255, 255, 0.13);
+  border-radius: 10px;
+  border: 2px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 0 40px rgba(8, 7, 16, 0.6);
+  padding: 10px 35px;
+  
+}
+ h1{
+    text-align: center;
+}
+label{
+    display: block;
+    margin-bottom: 5px;
+    font-size: 20px;
+}
+input[type="text"]{
+    width: 380px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    
+}
+button{
+    width: 380px;
+    height: 45px;
+    font-size: 18px;
+    padding: 10px 0;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    font-weight: 600;
+
+}
+button:hover{
+    background-color: black;
+    color: white;
+}
+.ope{
+    display: flex;
+    margin-top: 10px;
+   
+ 
+}
+.goo{
+  margin: 0 10px;
+  width: 180px;
+  margin-left: -2px;
+  
+}
+.go{
+    width: 192px;
+}
+
